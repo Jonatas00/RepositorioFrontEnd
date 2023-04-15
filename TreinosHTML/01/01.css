@@ -26,13 +26,22 @@ img {
 
 /*Code*/
 
+body{
+    background-color: rgb(26, 26, 26);
+    height: 100%;
+}
+
 .mainbox{
-    background-color: black;
+    border: 1px solid red;
     width: 80%;
-    margin: auto;
+    margin: 50% auto;
 }
 
 .nome{
     text-align: center;
     color: white;
+}
+
+.icone{
+    width: 30px;
 }
