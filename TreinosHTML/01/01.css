@@ -18,30 +18,17 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 ol, ul {
     list-style: none;
 }
-  
-img {
-    max-width: 100%;
-    height: auto;
-}
 
 /*Code*/
 
 body{
     background-color: rgb(26, 26, 26);
-    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mainbox{
-    border: 1px solid red;
-    width: 80%;
-    margin: 50% auto;
-}
-
-.nome{
-    text-align: center;
-    color: white;
-}
-
-.icone{
-    width: 30px;
+    background-color: red;
+    width: 700px;
 }
