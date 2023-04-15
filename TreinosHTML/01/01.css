@@ -21,14 +21,3 @@ ol, ul {
 
 /*Code*/
 
-body{
-    background-color: rgb(26, 26, 26);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.mainbox{
-    background-color: red;
-    width: 700px;
-}
