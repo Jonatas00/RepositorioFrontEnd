@@ -1,23 +1,30 @@
-/*CSS RESET */
-
-html{
-    box-sizing: border-box;
-    font-size: 16px;
-}
-  
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-  
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body{
     margin: 0;
-    padding: 0;
-    font-weight: normal;
-}
-  
-ol, ul {
-    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/*Code*/
+.container{
+    background-color: rgb(8, 8, 8);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 75%;
+    height: 500px;
+    background-color: #494949;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.iconbox{
+
+}
+
+.icon{
+    border: 1px solid red;
+}
