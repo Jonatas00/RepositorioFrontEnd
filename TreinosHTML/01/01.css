@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
 }
 
 .container{
@@ -14,17 +15,39 @@ body{
 .box{
     width: 75%;
     height: 500px;
-    background-color: #494949;
+    background-color: #0f0f0f;
     border-radius: 35px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
-.iconbox{
-
+.profileimage{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
 }
 
+.iconbox{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
 .icon{
-    border: 1px solid red;
+    display: flex;
+    width: 65px;
+    height: 65px;
+}
+
+
+.icon:hover{
+    background-color: black;
+    border-radius: 20px;
+}
+
+.icon:nth-child(2){
+    width: 42px;
+    height: 45px;
 }
