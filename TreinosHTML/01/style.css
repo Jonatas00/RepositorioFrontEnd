@@ -15,7 +15,7 @@ body{
 .box{
     width: 60%;
     min-width: 340px;
-    height: 650px;
+    height: 600px;
     background-color: #1a1a1a;
     border-radius: 35px;
     display: flex;
