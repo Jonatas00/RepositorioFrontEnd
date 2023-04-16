@@ -14,14 +14,15 @@ body{
 }
 .box{
     width: 60%;
-    min-width: 400px;
-    height: 500px;
+    min-width: 340px;
+    height: 650px;
     background-color: #1a1a1a;
     border-radius: 35px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 50px;
     box-shadow: 1px 1px 3px #505050
 }            /* RightBottomBlurSize*/
 
@@ -33,7 +34,7 @@ body{
 
 .iconbox{
     display: flex;
-    gap: 10px;
+    gap: 10%;
     padding: 20px;
     justify-content: center;
     align-items: center;
