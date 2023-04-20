@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,13 +7,13 @@ body{
     scroll-behavior: smooth;
 }
 
-h2{
+h2 {
     margin: 0;
     font-size: 200px;
     color: white;
 }
 
-.box{
+.box {
     margin: 0;
     width: 100vw;
     height: 100vh;
@@ -22,12 +22,12 @@ h2{
     align-items: center;
 }
 
-.b1{
+.b1 {
     background-color: red;
 }
-.b2{
+.b2 {
     background-color: gray;
 }
-.b3{
+.b3 {
     background-color: purple;
 }
