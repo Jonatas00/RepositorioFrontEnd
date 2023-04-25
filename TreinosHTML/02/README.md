@@ -2,7 +2,7 @@
 
 Teste de Boxs para aplicação futura
 
-[Testar](https://jonatas00.github.io/RepositorioFrontEnd/TreinosHTML/02/)
+<a href="https://jonatas00.github.io/RepositorioFrontEnd/TreinosHTML/02/" target="_blank">testar</a>
 
 ![i1g1](./Images/ex1.png)
 ![img2](./Images/ex2.png)
