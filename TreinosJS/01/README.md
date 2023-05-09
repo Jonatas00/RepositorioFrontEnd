@@ -1,1 +1,2 @@
-[Teste aqui](https://jonatas00.github.io/RepositorioFrontEnd/TreinosJS/01/)
+[Exemplo1](./img/example.png)
+[Exemplo2](./img/example2.png)
