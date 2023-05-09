@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 245, 245);
+
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+button {
+    font-size: 20px;
+    height: 75px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid rgb(26, 26, 26);
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: rgb(151, 151, 151);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgba(204, 155, 155, 0.082);
+}
+
+/* Dark Theme */
+
+.darkThemeBody {
+    background-color: rgb(26, 26, 26);
+}
+
+.darkThemeButton {
+    background-color: rgb(73, 71, 71);
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
