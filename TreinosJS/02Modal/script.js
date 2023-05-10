@@ -1,6 +1,6 @@
 function start() {
-    let btn = document.querySelector("#btn");
-    let window = document.querySelector("#window")
+    const btn = document.querySelector("#btn");
+    const window = document.querySelector("#window")
 
     btn.addEventListener("click", showWindow);
     document.addEventListener("keydown", (event) => {
