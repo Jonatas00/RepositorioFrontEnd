@@ -43,6 +43,7 @@ body{
     display: flex;
     width: 65px;
     height: 65px;
+    transition: .5s;
 }
 .icon:hover{
     background-color: rgb(105, 105, 105);
