@@ -21,5 +21,7 @@ const frase = " Olá, mundo!   "
 const novaFrase = frase.trim()
 console.log(novaFrase)
 
+// Startwith e endwith
 const frase2 = "Javascript is amazing!"
 console.log(frase2.startsWith("Java"))
+console.log(frase2.endsWith("!"))
